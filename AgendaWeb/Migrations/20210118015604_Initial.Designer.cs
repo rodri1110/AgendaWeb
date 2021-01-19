@@ -27,7 +27,7 @@ namespace AgendaWeb.Migrations
 
                     b.Property<string>("Nome");
 
-                    b.Property<int>("Telefone");
+                    b.Property<long>("Telefone");
 
                     b.HasKey("Id");
 
