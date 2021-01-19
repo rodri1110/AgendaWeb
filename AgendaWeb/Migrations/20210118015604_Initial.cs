@@ -14,7 +14,7 @@ namespace AgendaWeb.Migrations
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Nome = table.Column<string>(nullable: true),
-                    Telefone = table.Column<int>(nullable: false),
+                    Telefone = table.Column<long>(nullable: false),
                     Endereco = table.Column<string>(nullable: true)
                 },
                 constraints: table =>

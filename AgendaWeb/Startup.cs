@@ -61,8 +61,8 @@ namespace AgendaWeb
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    name: "",
+                    template: "{controller=Contatoes}/{action=Index}/{id?}");
             });
         }
     }
